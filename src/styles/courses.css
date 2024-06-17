@@ -1,0 +1,35 @@
+  .course {
+    padding: auto;
+    position: relative;
+    margin: auto;
+  }
+  .course-skill-bx {
+    text-align: center; 
+    padding: auto;
+    margin: 80px 0 80px 0;
+  }
+  .course h2 {
+      margin-bottom: 50px;
+      font-size: 45px;
+      font-weight: 700;
+  }
+  .course p {
+      color: #222222;
+      font-size: 15px;
+      letter-spacing: 1px;
+      line-height: 1em;
+  }
+  .course h3 {
+    color: #222222;
+    font-size: 35px;
+}
+  .image-course {
+    border-radius: 10%;
+    width: 70%;
+    transition: .4s;
+  }
+  .image-course:hover {
+    width: 80%;;
+    box-shadow: 0 0 5px #000000;
+  }
+  

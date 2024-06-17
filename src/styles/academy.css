@@ -1,0 +1,28 @@
+.academy {
+    margin-top: -10%;
+    padding: 260px 0 100px 0;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .academy img {
+    border-radius: 10%;
+  }
+  .academy .tagline-academy {
+    font-weight: bolder;
+    padding: 8px 10px;
+    background: linear-gradient(90.21deg, rgba(3, 163, 255, 0.5) -5.91%, rgb(0, 77, 221) 111.58%);
+    font-size: 25px;
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+  .academy h1 {
+    font-size: 75px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1;
+    margin-bottom: 30px;
+    display: block;
+  }
+
+  
