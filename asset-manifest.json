@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/MeuPortifolio/static/css/main.f309c0d4.css",
+    "main.js": "/MeuPortifolio/static/js/main.fe41180d.js",
+    "static/media/Curso Scratch Alura.jpg": "/MeuPortifolio/static/media/Curso Scratch Alura.00c94a6a5b2e39558155.jpg",
+    "static/media/Certificado UX_UI design.jpg": "/MeuPortifolio/static/media/Certificado UX_UI design.251a42906ae22c04d114.jpg",
+    "static/media/Certificado Linux - Fundamentos para desenvolvedores.jpg": "/MeuPortifolio/static/media/Certificado Linux - Fundamentos para desenvolvedores.749e838b22e1f02371de.jpg",
+    "static/media/Certificado Desenvolvedor JavaScript Front-end.jpg": "/MeuPortifolio/static/media/Certificado Desenvolvedor JavaScript Front-end.a8865fb182882bb37e60.jpg",
+    "static/media/Certificado Python.jpg": "/MeuPortifolio/static/media/Certificado Python.145c4db5a10c2097ea3d.jpg",
+    "static/media/Certificado Python avançado.jpg": "/MeuPortifolio/static/media/Certificado Python avançado.38c869712ddcfd3e85d8.jpg",
+    "static/media/Certificado Desenvolvedor Especialista Front-end.jpg": "/MeuPortifolio/static/media/Certificado Desenvolvedor Especialista Front-end.0e1023f0b25d82ce793a.jpg",
+    "static/media/CentraNo2-Bold.ttf": "/MeuPortifolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Book.ttf": "/MeuPortifolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/Foto perfil.jpg": "/MeuPortifolio/static/media/Foto perfil.32e15865f8c1966c4856.jpg",
+    "static/media/revicons.eot": "/MeuPortifolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/MeuPortifolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/MeuPortifolio/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/github-color-svgrepo-com.svg": "/MeuPortifolio/static/media/github-color-svgrepo-com.0bb80b8b9b816978d9b33261bd3b3c0b.svg",
+    "static/media/icons8-node-js.svg": "/MeuPortifolio/static/media/icons8-node-js.b7d2308b16bd82b67987d0d1682f8e6b.svg",
+    "static/media/instagram.svg": "/MeuPortifolio/static/media/instagram.448198b22019bf2f0b71355b8346c675.svg",
+    "static/media/whatsapp.svg": "/MeuPortifolio/static/media/whatsapp.17112172df21e518376d04f5814c11d8.svg",
+    "static/media/react-svgrepo-com.svg": "/MeuPortifolio/static/media/react-svgrepo-com.a060cbe85e50deda1d61452cee9de5b2.svg",
+    "static/media/javascript-js.svg": "/MeuPortifolio/static/media/javascript-js.34cd9860149518f3e4ecc21a4b50efae.svg",
+    "static/media/linkedin.svg": "/MeuPortifolio/static/media/linkedin.48c578785988bce75017d928a5dc8a14.svg",
+    "index.html": "/MeuPortifolio/index.html",
+    "static/media/icons8-typescript.svg": "/MeuPortifolio/static/media/icons8-typescript.f20748caf2dac55710ddeed71de0bac4.svg",
+    "static/media/file-type-php.svg": "/MeuPortifolio/static/media/file-type-php.038bbd36617179252964d100353c8f00.svg",
+    "main.f309c0d4.css.map": "/MeuPortifolio/static/css/main.f309c0d4.css.map",
+    "main.fe41180d.js.map": "/MeuPortifolio/static/js/main.fe41180d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f309c0d4.css",
+    "static/js/main.fe41180d.js"
+  ]
+}
