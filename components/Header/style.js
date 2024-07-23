@@ -33,7 +33,7 @@ export const Logo = styled.div`
     }
   }
 `
-export const Img = styled.img`
+export const Image = styled.img`
 
 `
 
@@ -77,42 +77,14 @@ export const Icons = styled.div`
   gap: 35px;
   display: flex;
   margin-right: 6%;
-  a {
-    text-decoration: none;
-  }
+  :hover {
+      transform: scale(1.11);
+    }
   img {
     width: 35px;
     transition: .3s;
-    :hover {
-      transform: scale(1.11);
-    }
-      @media (max-width: 560px) {
-        width: 30px;
-      }
-    }
   }
 `
-export const Ancora = styled.a`
-  font-size: 20px;
-  height: 100px;
-  transition: .3s;
-  font-weight: bold;
-
-  :hover {
-    color: #4789FB;
-    transform: scale(1.11);
-  }
-  
-  &.active {
-    background-color: integrit;
-  }
-
-  @media (min-width: 560px) {
-    align-items: center;
-    display: flex;
-    padding: 0px 10px;
-  }
-`;
 
 export const Menu = styled.div`
   font-size: 30px;

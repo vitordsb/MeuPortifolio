@@ -4,13 +4,18 @@ import { Brilho } from '../../../styles/indexStyle';
 
 export default function Projects() {
   const [itemsApi, setItemsApi] = useState([]);
+  const token = process.env.GITHUB_TOKEN;
 
   useEffect(() => {
     let abortController = new AbortController();
 
     async function getGitHubAPI() {
       try {
-        const response = await fetch('https://api.github.com/users/vitordsb/repos', { signal: abortController.signal });
+        const response = await fetch('https://api.github.com/users/vitordsb/repos', { 
+          signal: abortController.signal, 
+          Autorization: `token${token}` 
+        });
+        
         if (!response.ok) {
           throw new Error(response.status);
         }
