@@ -73,5 +73,6 @@ export const Img = styled.img`
     transform: translatey(0px);
   }
 `
+export default Intro
 
 
