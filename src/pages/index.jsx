@@ -1,5 +1,5 @@
 import { FaArrowRight } from 'react-icons/fa'
-import { Container, Content, Infos, Name, Function, Intro, LinkProjects, Logo, Img, Brilho } from '../../styles/indexStyle'
+import { Container, Content, Infos, Name, Function, Intro, Img, Brilho, Links, About } from '../../styles/indexStyle'
 import Link from 'next/link'
 import { useState, useEffect } from "react";
 
@@ -8,7 +8,6 @@ export default function Home() {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(200 - Math.random() * 100);
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   const toRotate = [ "Web Developer", "UI/UX Designer", "Mobile Developer" ];
   const period = 1000;
 
@@ -42,17 +41,17 @@ export default function Home() {
    <Container>
      <Content>
       <Infos>
-        <Name>Vitor de Souza</Name>
-        <Function>{text}</Function>
+        <Name>Dev Vitor</Name>
+        <Function>{<Brilho>{text}</Brilho>}</Function>
         <Intro>Cursando <Brilho>Sistemas de Informação</Brilho> na faculdade Rio Branco de Cotia/SP, tenho experiência em <Brilho>Desenvolvimento Web Full Stack</Brilho> com o ecossistema <Brilho>Java Script</Brilho>. E esse é meu portifólio feito em <Brilho>Next.js</Brilho> e utilizando as bibliotecas <Brilho>React e Styled Components</Brilho>
         </Intro>
-        <Link href="projects">
-          <LinkProjects> Meus Projetos <FaArrowRight /></LinkProjects>
+        <Links>
+        <Link href="about">
+          <About>Sobre mim<FaArrowRight/></About>
         </Link>
+        </Links>
       </Infos>
-      <Logo>
         <Img src="/images/logo.jpg" alt="logo" />
-      </Logo>
      </Content>
    </Container>
   )

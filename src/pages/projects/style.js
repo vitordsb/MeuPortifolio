@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  color: black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,6 +46,7 @@ export const Ul = styled.ul`
 `;
 
 export const Li = styled.li`
+  
   display: flex;
   flex-direction: column;
   text-align: start;
@@ -52,7 +54,7 @@ export const Li = styled.li`
   margin: 10px 10px 20px;
   box-shadow: 1px 1px 1px 2px gray;
   gap: 5px;
-  background-color: aliceblue;
+  background-color: white;
   border-radius: 10px;
   padding: 10px;
 

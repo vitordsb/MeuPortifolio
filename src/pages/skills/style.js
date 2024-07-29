@@ -24,13 +24,14 @@ export const CarouselItem = styled.div`
 `;
 
 export const SkillTitle = styled.h2`
+color: ${({ theme }) => theme.text};
   font-size: 45px;
   font-weight: 700;
   margin-bottom: 20px;
 `;
 
 export const SkillText = styled.p`
-  color: #222222;
+  color: ${({ theme }) => theme.text};
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;

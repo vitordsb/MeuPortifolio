@@ -1,14 +1,5 @@
 import Slider from "react-slick";
-import {
-  SkillSection,
-  SkillBox,
-  CarouselItem,
-  SkillTitle,
-  SkillText,
-  SkillSlider,
-  SkillImage,
-  CustomContainer,
-} from './style';
+import {SkillSection, SkillBox, CarouselItem, SkillTitle, SkillText, SkillSlider, SkillImage, CustomContainer} from './style';
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const skills = [
@@ -49,7 +40,7 @@ const Skills = () => {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 400,
+    speed: 600,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     slidesToShow: 4,

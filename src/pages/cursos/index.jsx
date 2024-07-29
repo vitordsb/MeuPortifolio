@@ -1,22 +1,13 @@
 import Slider from "react-slick";
-import {
-  CursosSection,
-  CursosBox,
-  CarouselItem,
-  CursosTitle,
-  CursosText,
-  CursosSlider,
-  CursosImage,
-  CustomContainer,
-} from './style';
+import {CursosSection, CursosBox, CarouselItem, CursosTitle, CursosText,CursosSlider, CursosImage, CustomContainer} from './style';
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const cursos = [
   { title: "Especialista Front-End", image: "/imgcourses/Frontend.jpg" },
-  { title: "Especialista UI/UX Design", image: "imgcourses/uiux.jpg" },
-  { title: "Especialista Linux", image: "imgcourses/linux.jpg" },
-  { title: "Desenvolvedor JavaScript Avançado", image: "imgcourses/javascript.jpg" },
-  { title: "Especialista React e Nextjs", image: "imgcourses/uiux.jpg" },
+  { title: "UI/UX Design", image: "imgcourses/uiux.jpg" },
+  { title: "SO Linux", image: "imgcourses/linux.jpg" },
+  { title: "Desenvolvedor JavaScript", image: "imgcourses/javascript.jpg" },
+  { title: "Desenvolvedor React e Nextjs", image: "imgcourses/uiux.jpg" },
 ];
 
 const PrevArrow = (props) => {
@@ -49,7 +40,7 @@ const Cursos = () => {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 400,
+    speed: 600,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     slidesToShow: 1,

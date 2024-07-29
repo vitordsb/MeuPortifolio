@@ -47,7 +47,7 @@ export default function Projects() {
     getGitHubAPI();
 
     return () => abortController.abort();
-  }, []);
+  }, [token]);
 
   return (
     <Container>

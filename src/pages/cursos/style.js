@@ -1,15 +1,17 @@
 import styled from 'styled-components';
 
 export const CursosSection = styled.section`
+  background-color: ${({ theme }) => theme.body};
+  color: ${({ theme }) => theme.text};
   position: relative;
   @media (max-width: 760px) { 
     padding: 0;
-    margin-top: -40px;
   }
 `;
 
 export const CursosBox = styled.div`
-  @media (max-width: 760px) {
+
+  @media (max-width: 760px) { 
     padding: 50px;
   }
 `;
@@ -23,16 +25,21 @@ export const CarouselItem = styled.div`
    margin-bottom: 20px;
     font-size: 25px;
   }
+
 `;
 
 export const CursosTitle = styled.h2`
+  color: ${({ theme }) => theme.text};
   font-size: 45px;
   font-weight: bolder;
   margin-bottom: 20px;
+  @media (max-width: 760px) { 
+    margin-top: -30px;
+  }
 `;
 
 export const CursosText = styled.p`
-  color: #222222;
+  color: ${({ theme }) => theme.text};
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -41,6 +48,7 @@ export const CursosText = styled.p`
   @media (max-width: 760px) {
     text-align: justify;
     width: 300px;
+    margin-top: -20px;
   }
 `;
 

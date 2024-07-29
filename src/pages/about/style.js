@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  background-color: ${({ theme }) => theme.body};
-  color: ${({ theme }) => theme.text};
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,12 +13,12 @@ export const Content = styled.div`
   display: flex;
   align-items: center;
   padding: 20px;
-  line-height: 1.1;
+  line-height: 1;
   @media (max-width: 600px) {
     margin: auto;
   }
   @media (max-width: 760px) {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 `;
 export const Brilho = styled.text`
@@ -30,6 +28,7 @@ export const Brilho = styled.text`
 export const Infos = styled.div`
   text-align: start;
   width: 50%;
+  gap: 15px;
   display: grid;
   @media (max-width: 760px) {
     width: 100%;
@@ -39,66 +38,27 @@ export const Infos = styled.div`
   }
 `;
 export const Name = styled.span`
-  font-size: 70px;
+  font-size: 60px;
+  margin-bottom: 5%;
   font-weight: bolder;
-
   @media (max-width: 760px) {
     font-size: 45px;
   }
 `;
-export const Function = styled.span`
-  font-size: 55px;
-  margin-bottom: 20px;
-  font-weight: bolder;
-
-  @media (max-width: 600px) {
-    font-size: 35px;
-    text-align: center;
-  }
-`;
 export const Intro = styled.span`
+  color: ${({ theme }) => theme.text};
   font-size: 20px;
   text-align: justify;
-  width: 480px;
   @media (max-width: 760px) {
-    font-size: 15px;
+    font-size: 20px;
     width: 330px;
   }
 `;
-export const About = styled.button`
-  width: 10rem;
-  font-size: 16px;
-  padding: 10px;
-  display: flex;
-  background-color: #4789FB;
-  justify-content: space-around;
-  margin-top: 20px;
-  font-weight: bold;
-  transition: .4s;
-  &:hover {
-    transform: scale(1.1);
-    color: white;
-    background-color: Blue;
-    svg {
-      transition: .2s;
-      margin-left: 15px;
-    }
-  }
-  svg {
-    font-size: 20px;
-  }
-  @media (max-width: 760px) {
-    margin-left: 85px;
-    margin-top: 15px;
-  }
-`;
 export const Img = styled.img`
-  width: 25rem;
-  height: 25rem;
-  border-radius: 100%;
+  width: 20rem;
+  border-radius: 10%;
   @media (max-width: 1024px) {
-    width: 13em;
-    height: 13em;
+    width: 12em;
   }
   transform: translatey(0px);
   animation: float4 5s ease-in-out infinite;
@@ -107,11 +67,11 @@ export const Img = styled.img`
     transform: translatey(0px);
   }
   50% {
-    transform: translatey(-20px);
+    transform: translatey(-10px);
   }
   100% {
     transform: translatey(0px);
   }
 `
 
-export const Links = styled.div``
+
