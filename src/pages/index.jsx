@@ -8,6 +8,7 @@ export default function Home() {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(200 - Math.random() * 100);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const toRotate = [ "Web Developer", "UI/UX Designer", "Mobile Developer" ];
   const period = 1000;
 
