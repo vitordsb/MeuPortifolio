@@ -25,7 +25,7 @@ export const Content = styled.div`
 `;
 export const Brilho = styled.text`
   color: #4789FB;
-  text-shadow: 1px 1px 1px #4789FB;
+  text-shadow: 1px #4789FB;
 `
 export const Infos = styled.div`
   text-align: start;
