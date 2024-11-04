@@ -70,7 +70,7 @@ const ErrorMessage = styled.p`
   color: red;
 `;
 
-export default function Projects() {
+const Projects = () => {
   const [repos, setRepos] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -144,3 +144,5 @@ export default function Projects() {
     </Container>
   );
 }
+
+export default Projects

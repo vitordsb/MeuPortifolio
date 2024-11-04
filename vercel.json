@@ -3,12 +3,19 @@
     {
       "src": "next.config.js",
       "use": "@vercel/next"
+    },
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
     }
   ],
   "rewrites": [
     {
       "source": "/public/:path*",
       "destination": "/public/:path*"
+    },
+    { "source": "/(.*)", 
+    "destination": "/" 
     }
   ]
 }

@@ -12,7 +12,7 @@ import styled from "styled-components";
 const Screen = styled(motion.div)``
 
 
-export default function App() {
+const App = () => {
   const variants = {
     hidden: { opacity: 0, x: -200 },
     visible: { opacity: 1, x: 0, transition: { duration: 1.25 } },
@@ -54,3 +54,5 @@ export default function App() {
     </>
   );
 }
+
+export default App

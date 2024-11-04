@@ -54,9 +54,7 @@ NextArrow.propTypes = {
 };
 
 
-
-
-export default function Cursos () {
+const Cursos = () => {
   const settings = {
     dots: false,
     infinite: true,
@@ -115,7 +113,8 @@ export default function Cursos () {
     </>
   );
 };
-export const CursosSection = styled.section`
+export default Cursos;
+const CursosSection = styled.section`
   padding: 30px 0;
   width: auto;
   background-color: ${({ theme }) => theme.body};
@@ -132,9 +131,9 @@ export const CursosSection = styled.section`
   }
 `;
 
-export const CursosBox = styled.div``;
+const CursosBox = styled.div``;
 
-export const CarouselItem = styled.div`
+const CarouselItem = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -145,7 +144,7 @@ export const CarouselItem = styled.div`
   }
 `;
 
-export const CursosTitle = styled.h2`
+const CursosTitle = styled.h2`
   color: ${({ theme }) => theme.text};
   font-size: 55px;
   text-align: center;
@@ -155,7 +154,7 @@ export const CursosTitle = styled.h2`
   }
 `;
 
-export const CursosText = styled.p`
+const CursosText = styled.p`
   color: ${({ theme }) => theme.text};
   font-size: 20px;
   letter-spacing: 0.8px;
@@ -178,7 +177,7 @@ export const CursosText = styled.p`
   }
 `;
 
-export const CursosSlider = styled.div`
+const CursosSlider = styled.div`
   width: 1700px;
   margin: auto;
   position: relative;
@@ -205,7 +204,7 @@ export const CursosSlider = styled.div`
   }
 `;
 
-export const CursosImage = styled.img`
+const CursosImage = styled.img`
   height: 340px;
   margin-bottom: 20px;
   transition: calc(0.3s);

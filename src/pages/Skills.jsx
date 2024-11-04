@@ -61,7 +61,7 @@ const Subtitle = styled.p`
   text-align: center;
 `;
 
-export default function Skills() {
+const Skills = () => {
     return (
       <Container>
         <Title>Minhas Habilidades</Title>
@@ -115,3 +115,4 @@ export default function Skills() {
       </Container>
     );
 }
+export default Skills
