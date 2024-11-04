@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "next.config.js",
+      "use": "@vercel/next"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/public/:path*",
+      "destination": "/public/:path*"
+    }
+  ]
+}
