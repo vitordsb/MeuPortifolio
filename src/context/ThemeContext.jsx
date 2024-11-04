@@ -1,10 +1,8 @@
 import { createContext, useContext, useState } from "react";
 import { ThemeProvider as StyledComponentsThemeProvider } from "styled-components";
 import PropTypes from "prop-types";
-// Cria o contexto de tema
 const ThemeContext = createContext();
 
-// Temas
 const lightTheme = {
   background: "#D9D9D9",
   color: "#000000",
